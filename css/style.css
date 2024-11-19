@@ -1,0 +1,42 @@
+:root {
+    --primary-color-white: #FFFFFF;
+    --primary-color-blueAccent: #2B7FFF;
+    --primary-color-dark: #011C44;
+}
+
+body {
+    color: var(--primary-color-dark);
+}
+
+ul {
+    list-style-type: none;
+}
+
+section_title {
+    color: var(--primary-color-dark);
+}
+
+.title_accent {
+    color: var(--primary-color-blueAccent);
+}
+
+.button {
+    background-color: var(--primary-color-blueAccent);
+    color: var(--primary-color-white);
+    width: 219px;
+    height: 53px;
+    border-radius: 32px;
+    border: 0px;
+}
+
+.nav_title {
+    color: var(--primary-color-dark);
+}
+
+.nav_title:hover {
+    color: var(--primary-color-blueAccent);
+}
+
+.hero_title {
+    color: var(--primary-color-blueAccent);
+}
