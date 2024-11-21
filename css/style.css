@@ -51,9 +51,7 @@ a {
 
 .button:hover {
     color: var(--primary-color-dark);
-    border: 2px;
-    /* background-color: none; */
-    
+    border: 2px;  
 }
 
 .links {
@@ -69,10 +67,6 @@ a {
 .nav-icon-item {
     fill: var(--primary-color-dark);
 }
-/* .nav-icon-item:hover {
-    fill: var(--primary-color-white);
-} */
-
 .nav-list {
     line-height: 1.17;
 }
